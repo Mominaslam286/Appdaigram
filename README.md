@@ -1,1 +1,35 @@
 # Appdaigram
+# AppDiagram
+AppDiagram.png
+
+# pycache
+__pycache__/
+
+# Ignore all files and subdirectories in the data directory
+data/*
+
+# But don't ignore the .gitkeep file
+!data/.gitkeep
+
+# Ignore virtual environment folder
+yttvenv/
+
+# macOS system files
+.DS_Store
+
+# Todo List
+docs/Todo.txt
+
+#.env file
+.env
+
+#.db file
+example.db
+
+# Export Embeddings
+export_embeddings.py
+
+#ffmpeg
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
